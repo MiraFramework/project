@@ -1,0 +1,14 @@
+{
+    "name": "miraframework/project",
+    "description": "A Service Provider to add Project support to get configuration files easier for the Mira Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Mancuso",
+            "email": "jmancuso.mil@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
