@@ -12,7 +12,10 @@ class Project
             return include $_SERVER['DOCUMENT_ROOT']."/config/config.php";
         } else {
             $config = include $_SERVER['DOCUMENT_ROOT']."/config/config.php";
-            return $config[$config_name];
+            if (isset($config[$config_name])) {
+                return $config[$config_name];
+            }
+            return false;
         }
     }
 
